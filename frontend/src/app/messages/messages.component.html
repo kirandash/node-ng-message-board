@@ -1,0 +1,11 @@
+<div>
+  <mat-card *ngFor="let message of messages" style="margin: 8px;">
+    <mat-card-title>
+      {{message.owner}}
+    </mat-card-title>
+    <mat-card-content>
+      {{message.text}}
+    </mat-card-content>
+    <!--<button mat-button>Click me!</button>-->
+  </mat-card>
+</div>
