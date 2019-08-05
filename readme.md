@@ -15,3 +15,9 @@ https://material.angular.io/guide/getting-started
 npm install --save @angular/material @angular/cdk @angular/animations
 Note: Install 7.2.0 to avoid errors
 Use buttons and cards. (Make sure to import both html and ts content)
+
+## 3 Getting Data from Node
+### 3.1 Set up Express
+In backend folder: 
+npm init to create package.json file
+npm install express --save
