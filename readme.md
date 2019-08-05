@@ -30,3 +30,6 @@ server.js code:
 app.get('/messages', (req,res) => {
     res.json(messages); // returning json object in response
 });
+
+### 3.3 Service in Angular to get data from node service
+WIP - Continue from here after learning Express 
