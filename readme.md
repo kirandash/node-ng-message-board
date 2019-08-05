@@ -21,3 +21,12 @@ Use buttons and cards. (Make sure to import both html and ts content)
 In backend folder: 
 npm init to create package.json file
 npm install express --save
+
+### 3.2 Create a service in node
+npm install -g nodemon
+(package to automatically compile and wrap our node code - watching for changes)
+nodemon ./backend/server.js (instead of node ./backend/server.js)
+server.js code:
+app.get('/messages', (req,res) => {
+    res.json(messages); // returning json object in response
+});
